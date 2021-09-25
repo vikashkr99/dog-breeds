@@ -6,6 +6,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
 
+body {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+h1 {
+    padding: 2vw;
+    text-align: center;
+    border-bottom: solid 2px black;
+    border-radius: 2vw;
+}
+
 ul {
     width: 100%;
     padding: 2%;
@@ -23,6 +34,9 @@ li {
     padding: 2%;
     width: 80%;
     height: 20vw;
+    border: solid 1px black;
+    border-radius: 2vw;
+    margin-bottom: 1vw;
 }
 
 li .left {
@@ -54,7 +68,6 @@ li .right .field {
 
 li .right .field p {
     font-weight: bold;
-    font-family: 'Gemunu Libre', sans-serif;
     font-size: 1.1vw;
 }
 

@@ -97,7 +97,8 @@ li .right .ans p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 80vw;
+        height: 100vw;
+        margin-bottom: 5%;
     }
 
     ul li .left {
@@ -127,11 +128,11 @@ li .right .ans p {
     }
 
     li .right .field p {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     li .right .ans p {
-        font-size: 2.4vw;
+        font-size: 2.9vw;
     }
 
 

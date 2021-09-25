@@ -13,6 +13,7 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 10%;
 }
 
 li {
@@ -68,26 +69,6 @@ li .right .ans {
 
 li .right .ans p {
     font-size: 1.1vw;
-}
-
-.button {
-    width: 100%;
-    height: 5vw;
-    margin-bottom: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button button {
-    padding: 1% 4%;
-    font-size: 1.3vw;
-    border: none;
-    border-radius: 1vw;
-    background: #4267B2;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 550px) {

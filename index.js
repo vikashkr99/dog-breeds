@@ -17,6 +17,21 @@ let r1=20;
 let r2=10;
 
 
+$(document).scroll(function () {
+
+    if(($('#list li:last-child').offset().top) - window.scrollY <= (window.outerHeight / 3)) {
+        window.scrollTo(0, 0);
+        document.getElementById('list').innerHTML = '';
+        for (let i=r2; i<r1; i++) {
+            add_li(doglist[i]);
+        }
+        r1+=10;
+        r2+=10;
+    }
+
+});
+
+
 const next_list = () => {
     document.getElementById('list').innerHTML = '';
 

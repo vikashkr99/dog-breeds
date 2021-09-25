@@ -87,6 +87,7 @@ li .right .ans p {
     background: #4267B2;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 550px) {

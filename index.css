@@ -88,3 +88,51 @@ li .right .ans p {
     color: white;
     font-weight: bold;
 }
+
+@media screen and (max-width: 550px) {
+
+    ul li {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vw;
+    }
+
+    ul li .left {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li .left img {
+        width: 50%;
+        height: 100%;
+    }
+
+    ul li .right {
+        width: 60%;
+        height: 50%;
+    }
+
+    ul li .right .field {
+        width: 40%;
+    }
+
+    ul li .right .ans {
+        width: 60%;
+    }
+
+    li .right .field p {
+        font-size: 2vw;
+    }
+
+    li .right .ans p {
+        font-size: 1.9vw;
+    }
+
+
+}

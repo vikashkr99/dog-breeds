@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+ul {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    width: 80%;
+    height: 20vw;
+}
+
+li .left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+li .left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+}
+
+li .right {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+li .right .field {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+li .right .field p {
+    font-weight: bold;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 1.1vw;
+}
+
+li .right .ans {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+li .right .ans p {
+    font-size: 1.1vw;
+}
+
+.button {
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button {
+    padding: 1% 4%;
+    font-size: 1.3vw;
+    border: none;
+    border-radius: 1vw;
+    background: #4267B2;
+    color: white;
+    font-weight: bold;
+}
